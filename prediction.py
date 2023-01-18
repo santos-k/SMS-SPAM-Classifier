@@ -59,7 +59,7 @@ def result(x, y):
         return ''
     else:
         if y is None or y == '':
-            return 'Oops... you forgot to enter message!!'
+            return 'Pls enter message first'
         else:
             if len(y) > 10:
                 try:
