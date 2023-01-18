@@ -1,6 +1,7 @@
 # SMS/Email Spam Classification
 
-![img_1.png](img_1.png)
+![image](https://user-images.githubusercontent.com/40932902/213201019-8a0126cd-8bac-4b2c-9905-a36be6cd0d4a.png)
+
 
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-310/)
