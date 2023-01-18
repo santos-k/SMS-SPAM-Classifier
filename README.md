@@ -21,6 +21,18 @@ The evaluation metrics used were accuracy, precision, recall, and F1 score. The 
 
 In conclusion, the MultinomialNB model demonstrated superior performance in classifying SMS and email messages as spam or not spam, as it achieved a precision score of 100%. This suggests that the MultinomialNB model is an effective method for classifying SMS and email messages as spam or not spam and minimizing the number of false positive predictions.
 
+## Project Files/Requirements
+1. [assests](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/assets) - assests folder
+2. [app.py](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/app.py) - main python file
+3. [prediction.py](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/prediction.py) - for new prediction 
+4. [analysis.py](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/analysis.py) - for analysis charts page
+5. [requirements.txt](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/requirements.txt) - all required packages list file
+6. [Procfile](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/Procfile) - require for heroku deployment
+7. [model.pkl](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/model.pkl) - tained model for prediction
+8. [nltk.txt](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/nltk.txt) - 
+9. [spam.csv](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/spam.csv) - original dataset
+10. [tranform_text.pkl](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/transform_text.pkl) - tranformed text file
+11. [transform_df.csv](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/transform_df.csv) - cleaned and transformed dataset
 
 # Analysis Report
 This analysis was conducted to classify SMS and email messages as spam or not spam using machine learning techniques. The dataset used for this analysis is the [SMS Spam Collection dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset) from the Kaggle, which contains 5,574 SMS messages and labels indicating whether each message is spam or not.
