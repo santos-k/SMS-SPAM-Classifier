@@ -13,7 +13,7 @@
 ![GitHub followers](https://img.shields.io/github/followers/santos-k?style=social) 
 ![Bower](https://img.shields.io/bower/l/flask) 
 
-This project aimed to train and evaluate a machine learning model for classifying SMS and email messages as spam or not spam. The dataset used for this analysis is the SMS Spam Collection dataset from the UCI Machine Learning Repository, which contains 5,574 SMS messages and labels indicating whether each message is spam or not.
+This analysis was conducted to classify SMS and email messages as spam or not spam using machine learning techniques. The dataset used for this analysis is the [SMS Spam Collection dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset) from the Kaggle, which contains 5,574 SMS messages and labels indicating whether each message is spam or not.
 
 The first step in the project was to preprocess the data by removing duplicate rows, converting the target column to binary values, and performing natural language processing techniques on the message text. The model building process began by trying different machine learning algorithms, starting with Naive Bayes. To make the text data suitable for the model, the text was converted to numerical data using vectorization techniques such as Bag of Words and TF-IDF.
 
@@ -35,7 +35,6 @@ In conclusion, the MultinomialNB model demonstrated superior performance in clas
 11. [transform_df.csv](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/transform_df.csv) - cleaned and transformed dataset
 
 # Analysis Report
-This analysis was conducted to classify SMS and email messages as spam or not spam using machine learning techniques. The dataset used for this analysis is the [SMS Spam Collection dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset) from the Kaggle, which contains 5,574 SMS messages and labels indicating whether each message is spam or not.
 
 ## **Data Exploration**
 Upon initial exploration of the dataset, it was found that the dataset contains 5,574 rows and 2 columns. The columns in the dataset are labeled as "v1" and "v2", where "v1" represents the target variable indicating whether the message is spam or not, and "v2" represents the message itself. Upon further exploration, it was found that the dataset is imbalanced, with more not spam messages (ham) than spam messages.
