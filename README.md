@@ -32,7 +32,7 @@ In conclusion, the MultinomialNB model demonstrated superior performance in clas
 8. [nltk.txt](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/nltk.txt) - 
 9. [spam.csv](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/spam.csv) - original dataset
 10. [tranform_text.pkl](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/transform_text.pkl) - tranformed text file
-11. [transform_df.csv](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/transform_df.csv) - cleaned and transformed dataset
+11. [transform_df.csv](https://github.com/santos-k/SMS-SPAM-Classifier/tree/main/transformed_df.csv) - cleaned and transformed dataset
 
 # Analysis Report
 
