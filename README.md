@@ -1,17 +1,30 @@
-# SMS/Email Spam Classification
-[Live here](https://spamyfire-cpg56matbq-em.a.run.app/model-report)
-![image](https://user-images.githubusercontent.com/40932902/213201019-8a0126cd-8bac-4b2c-9905-a36be6cd0d4a.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/40932902/213201019-8a0126cd-8bac-4b2c-9905-a36be6cd0d4a.png">
+    <h1 align="center">SMS/Email Spam Classification WebApp</h1>
+</p>
 
+<p align="center">
+    <a href="https://spamyfire-cpg56matbq-em.a.run.app/model-report">View Demo</a>
+    ·
+    <a href="https://github.com/santos-k/Flight-Price-Prediction/issues/new/choose">Report Bug</a>
+    ·
+    <a href="https://github.com/anuraghazra/Flight-Price-Prediction/issues/new/choose">Request Feature</a>
+    ·
+    <a href="https://github.com/anuraghazra/Flight-Price-Prediction/discussions">Ask Question</a>
+  </p>
 
+<p align="center">
+  <a href="https://www.python.org/downloads/release/python-310/"><img src="http://ForTheBadge.com/images/badges/made-with-python.svg"></a>
+</p>
 
-[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-310/)
-[![Dash 2.7](https://img.shields.io/badge/Dash-2.7-blue)](https://dash.plotly.com/)
-[![Plolty 5.11](https://img.shields.io/badge/Plotly-5.11-blue)](https://pypi.org/project/plotly/)
-![GitHub repo size](https://img.shields.io/github/repo-size/santos-k/SMS-SPAM-Classifier?logo=github) 
-![GitHub Repo stars](https://img.shields.io/github/stars/santos-k/SMS-SPAM-Classifier?style=social) 
-![GitHub watchers](https://img.shields.io/github/watchers/santos-k/SMS-SPAM-Classifier?style=social) 
-![GitHub followers](https://img.shields.io/github/followers/santos-k?style=social) 
-![Bower](https://img.shields.io/bower/l/flask) 
+<p align="center">
+    <img src="https://img.shields.io/badge/Flask-2.2-blue">
+    <img src="https://img.shields.io/badge/Plotly-5.11-blue">
+    <img src="https://img.shields.io/github/repo-size/santos-k/SMS-SPAM-Classifier?logo=github">
+    <img src="https://img.shields.io/bower/l/flask">
+</p>
+
+# Overview
 
 This analysis was conducted to classify SMS and email messages as spam or not spam using machine learning techniques. The dataset used for this analysis is the [SMS Spam Collection dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset) from the Kaggle, which contains 5,574 SMS messages and labels indicating whether each message is spam or not.
 
@@ -65,6 +78,7 @@ The best results were obtained using the MultinomialNB algorithm, which achieved
 In conclusion, the trained MultinomialNB model demonstrated superior performance in classifying SMS and email messages as spam or not spam, as it achieved a precision score of 100%. This suggests that the MultinomialNB model is an effective method for classifying SMS and email messages as spam or not spam and minimizing the number of false positive predictions. The BernoulliNB model had a higher accuracy, but it's not much important in this case as the precision score is also high.
 
 
+# Snapshots
 
 ![image](https://user-images.githubusercontent.com/40932902/168224057-d1391cf8-f9ef-4d37-9a8b-25d9d7cdeb80.png)
 ![image](https://user-images.githubusercontent.com/40932902/168224199-f36dfa2e-8f23-4309-b604-be9ce3db65c8.png)
